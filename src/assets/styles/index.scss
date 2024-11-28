@@ -1,5 +1,6 @@
 /* @tailwind base; */
 @import './reset';
+@import './font';
 
 a,
 a:active,
@@ -9,4 +10,8 @@ a:visited {
 
 :root {
     --link-color: #42b983;
+}
+
+* {
+    font-family: Roboto, sans-serif !important;
 }
